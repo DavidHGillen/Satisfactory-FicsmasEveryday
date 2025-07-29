@@ -1,8 +1,8 @@
 {
 	"FileVersion": 3,
 	"Version": 1,
-	"VersionName": "1.0.1",
-	"SemVersion": "1.0.1",
+	"VersionName": "1.0.2",
+	"SemVersion": "1.0.2",
 	"FriendlyName": "Ficsmas Every Day",
 	"Description": "♪I wish it could be Ficsmas every dayyyy♪",
 	"Category": "Modding",
@@ -15,12 +15,18 @@
 	"IsBetaVersion": false,
 	"IsExperimentalVersion": false,
 	"Installed": false,
-	"GameVersion": ">=382498",
+	"GameVersion": ">=416835",
 	"Plugins": [
 		{
 			"Name": "SML",
 			"Enabled": true,
-			"SemVersion": "^3.8.0"
+			"SemVersion": "^3.11.1"
+		}
+	],
+	"LocalizationTargets": [
+		{
+			"Name": "FicsmasEveryday",
+			"LoadingPolicy": "Always"
 		}
 	]
 }
